@@ -116,7 +116,7 @@ function timeElapse(date){
 
 function showMessages() {
 	adjustWordsPosition();
-	$('#messages').fadeIn(1000, function() {
+	$('#messages').fadeIn(5000, function() {
 		showLoveU();
 	});
 }
@@ -132,5 +132,5 @@ function adjustCodePosition() {
 }
 
 function showLoveU() {
-	$('#loveu').fadeIn(1000);
+	$('#loveu').fadeIn(3000);
 }
